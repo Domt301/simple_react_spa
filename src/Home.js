@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 
+
 class Home extends Component {
     render() {
         return (
@@ -10,13 +11,13 @@ class Home extends Component {
         <p>Found a tutorial < a href="https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm">here</ a>.</p>
         <h3>My Personal Links</h3>
     <ul>
-      <li><a href="https://twitter.com/Domt301?ref_src=twsrc%5Etfw" title="Twitter" target="_blank" ><img src="../src/assets/Twitter-logo-2012.png"/></a> 
+      <li><a href="https://twitter.com/Domt301?ref_src=twsrc%5Etfw" title="Twitter" target="_blank" ><img src={require("./assets/Twitter-logo-2012.png")}/></a> 
     
       </li>&nbsp;
-       <li><a href="https://domthecodingcaveman.wordpress.com/" title="Blog" target="_blank" ><img src="./assets/Blog.png"/></a>
+       <li><a href="https://domthecodingcaveman.wordpress.com/" title="Blog" target="_blank" ><img src={require("./assets/Blog.png")}/></a>
       
       </li>&nbsp;
-        <li><a href="https://github.com/Domt301" title="Github" target="_blank" ><img src="./assets/Octocat.jpg"/></a> 
+        <li><a href="https://github.com/Domt301" title="Github" target="_blank" ><img src={require("./assets/Octocat.jpg")}/></a> 
         
       </li>
     </ul>
